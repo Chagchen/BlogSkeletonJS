@@ -1,0 +1,32 @@
+div {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Style Post Name */
+.post-name {
+  font-size: 24pt;
+}
+
+/* Style author */
+.post-author {
+  color: blue;
+}
+
+/* Style content */
+.post-content {
+  font-size: 12pt;
+  color: darkslategray;
+}
+
+
+/* CSS applied on small screens*/
+@media (max-width: 480px) {
+  /* Reduce margin */
+  body {
+    margin: 0px;
+  }
+  /* Make the post content larger */
+  .post-content {
+    font-size: 16pt;
+  }
+}
